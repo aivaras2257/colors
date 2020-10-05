@@ -1,0 +1,89 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+header h1{
+	width: 50%;
+}
+nav{
+	width: 50%;
+	height: 80px;
+	float: left;
+}
+nav ul li{
+	display: inline-block;
+
+}
+li a {
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  color: #111;
+  position: relative;
+  bottom: -25px;
+}
+
+.container{
+	/*position:relative;*/
+	width: 100%;
+	line-height: 140px;
+	background-color: #636664;
+	clear: both;
+	color: white;
+}
+main div h1 {
+	text-align:center;
+	position: relative;
+	bottom: -80px;
+}
+div p{
+	text-align: center;
+}
+h1,ul,h2,p{
+	margin: 0;
+}
+main div a{
+	border-radius: 60px;
+	color: white;
+	background-color: #727573;
+	padding: 20px;
+  	text-align: center;
+  	text-decoration: none;
+	position: relative;
+	right: -46%;
+	top: -170px;
+}
+main div p span{
+	position: relative;
+	top: -110px;
+}
+main article{
+	background-color: white;
+	width: 20%;
+	height: 400px;
+	padding: 50px;
+	margin-right: 25px;
+	display: inline-block;
+	position: relative;
+	top: -150px;
+	right: -20%;
+
+}
+main{
+	background-color: #e6ede9;
+}
+article h2{
+	text-align: center;
+	padding: 10px
+}
+article i[class="fas fa-leaf"], article i[class="fas fa-sun"], article i[class="fas fa-water"]{
+	font-size: 5em;
+	position: relative;
+	right: -50px;
+	color: grey;
+}
+
